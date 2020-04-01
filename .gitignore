@@ -1,0 +1,6 @@
+firmware/build/*
+**.DS_Store
+.vscode/
+firmware/gcp-esp32_95A4C5.key.pem
+firmware/gcp-esp32_95A4C5.pub.pem
+firmware/GCP.txt

@@ -1,0 +1,5 @@
+//to deploy app on CLoudFuntions
+gcloud functions deploy data2bq --runtime nodejs8 --trigger-topic telemetry-topic
+
+//Check the logs
+gcloud functions logs read --limit 10

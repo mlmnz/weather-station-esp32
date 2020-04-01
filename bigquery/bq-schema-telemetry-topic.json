@@ -1,0 +1,27 @@
+[
+    {
+        "name": "timestamp",
+        "type": "TIMESTAMP",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "deviceId",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "temp",
+        "type": "FLOAT",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "hum",
+        "type": "FLOAT",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "gas",
+        "type": "FLOAT",
+        "mode": "REQUIRED"
+    }
+]

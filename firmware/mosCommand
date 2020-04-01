@@ -1,0 +1,15 @@
+
+//Build for esp32
+mos build --platform esp32
+
+// Flash with erase chip
+mos flash --esp-erase-chip
+
+
+
+//Combination
+mos build --platform esp32 && mos flash --esp-erase-chip
+
+
+//Remote Update by POST 
+curl -i -F filedata=@./build/fw.zip  http://IPESP32/update
